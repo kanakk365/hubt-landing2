@@ -250,29 +250,29 @@ export const PRODUCTS: Product[] = [
     name: "Xura",
     category: "Energy infrastructure platform",
     summary:
-      "The web platform for a Level 3 EV charging and battery storage company, with partner and advertiser portals.",
+      "The feasibility platform, ad engine and site for a Level 3 EV charging and battery storage company.",
     description:
-      "Xura designs and delivers EV charging and battery energy storage for commercial and fleet sites. We built its platform: the site that explains storage, charging and microgrid load control to operators, a partner portal for EPC partners, contractors and installers, and an advertiser portal for brands running campaigns across the Xura station network, both with one-time-code sign-in.",
+      "Xura builds EV charging and battery storage for commercial and fleet sites. We build its software: a platform that scores sites for EV charging, storage, solar and efficiency, an ad engine for the screens at its chargers, and the site, sign-in and reports around them.",
     accent: "lime",
     features: [
       {
+        id: "feasibility",
+        label: "Site feasibility platform",
+        description: "Scores every site for EV charging, battery storage, rooftop solar and efficiency, then ranks them.",
+      },
+      {
+        id: "ad-engine",
+        label: "Ad Engine",
+        description: "Brands book the screens at Xura's chargers and track every campaign.",
+      },
+      {
         id: "site",
         label: "Solutions site",
-        description: "Storage, Level 3 charging and microgrid load control explained for operators and fleet owners.",
-      },
-      {
-        id: "partners",
-        label: "Partner portal",
-        description: "EPC partners, contractors and installers register and sign in with a one-time code.",
-      },
-      {
-        id: "advertisers",
-        label: "Advertiser portal",
-        description: "Brands and agencies choose campaign packages across the Xura station network.",
+        description: "Level 3 charging, battery storage and load control, explained for fleet and property owners.",
       },
     ],
-    added: "Two-sided portals: separate partner and advertiser sign-ups with one-time-code verification, on top of a marketing site.",
-    addedTags: ["Portals", "OTP sign-in", "Energy"],
+    added: "Site scoring across four energy technologies, ad booking for the screens at charging sites, and one sign-in across separate back ends.",
+    addedTags: ["Feasibility scoring", "Ad tech", "Portals", "Energy"],
   },
   {
     slug: "oneplace",
